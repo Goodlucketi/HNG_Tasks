@@ -10,6 +10,9 @@ const registeredEmail = 'goodlucketim94@gmail.com';
 const githubURL = 'https://github.com/Goodlucketi/HNG_Tasks.git';
 
 // Define the API route
+app.get('/', (req, res)=>{
+    res.send("Api Running")
+})
 app.get('/api/info', (req, res) => {
     res.json({
         email: registeredEmail,
