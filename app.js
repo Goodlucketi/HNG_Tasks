@@ -7,7 +7,7 @@ app.use(cors())
 
 // Define email address and GitHub URL
 const registeredEmail = 'goodlucketim94@gmail.com';
-const githubURL = 'https://github.com/Goodlucketi/HNG_Tasks.git';
+const githubURL = 'https://github.com/Goodlucketi/HNG_Tasks';
 
 // Define the API route
 app.get('/', (req, res)=>{
