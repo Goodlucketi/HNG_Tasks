@@ -16,8 +16,8 @@ app.get('/', (req, res)=>{
 app.get('/api/info', (req, res) => {
     res.json({
         email: registeredEmail,
-        datetime: new Date().toISOString(),
-        githubURL: githubURL
+        current_datetime: new Date().toISOString(),
+        github_url: githubURL
     });
 });
 
